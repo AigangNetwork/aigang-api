@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Aigang.Platform.Handlers</AssemblyName>
+    <RootNamespace>Aigang.Platform.Handlers</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="CsvHelper" Version="7.1.1" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aigang.AndroidDataCollector.Client\Aigang.AndroidDataCollector.Client.csproj" />
+    <ProjectReference Include="..\Aigang.Contracts.Executor.Api.Client\Aigang.Contracts.Executor.Api.Client.csproj" />
+    <ProjectReference Include="..\Aigang.Platform.Contracts\Aigang.Platform.Contracts.csproj" />
+    <ProjectReference Include="..\Aigang.Platform.Contracts\Aigang.Platform.Contracts.csproj" />
+    <ProjectReference Include="..\Aigang.Platform.Utils\Aigang.Platform.Utils.csproj" />
+    <ProjectReference Include="..\Aigang.Platform.Domain\Aigang.Platform.Domain.csproj" />
+    <ProjectReference Include="..\Aigang.Platform.Repository\Aigang.Platform.Repository.csproj" />
+  </ItemGroup>
+</Project>

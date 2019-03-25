@@ -1,0 +1,23 @@
+﻿{
+  "AppName": "DEV.Aigang.API",                                        // Application name is used in logging
+  
+  "NetworkProvider": "https://ropsten.infura.io/xxxx",                // Blockchain Network provided address
+
+ 
+  // "AndroidDataCollector:Address": "http://localhost:8080/api/v1/",
+  "AndroidDataCollector:Address": "https://testdeviceapi/api/v1/",   // Device API htttps address
+  "AndroidDataCollector:Secret": "yyyyy",                            // API key
+  
+  
+  // "ContractsExecutor:Address": "http://localhost:5001/api/",
+  "ContractsExecutor:Address": "https://testcontractsexecutor/api/",  // Contracts Executor https API address
+  "ContractsExecutor:Secret": "xxxx",                                 // API key
+
+  "BannedCountriesEnabled": false,                                    // Requests frotm these countries can be blocked. Works with Cloudflare service
+  "BannedCountries": ["US"],
+
+  "ConnectionStrings": {                                              // Database connection string
+    // example "MySql": "Server=test.mysql.database.azure.com; Port=3306; Database=aigang.insurance; Uid=user@user; Pwd=password;CharSet=utf8;Max Pool Size=10;Min Pool Size=2;"
+    "MySql": " *** "
+  }
+}

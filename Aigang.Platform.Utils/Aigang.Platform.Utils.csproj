@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aigang.Platform.Contracts\Aigang.Platform.Contracts.csproj">
+      <Project>{13830299-D5C2-4743-B575-0DFCE393FEAE}</Project>
+      <Name>Aigang.Platform.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aigang.Platform.Domain\Aigang.Platform.Domain.csproj">
+      <Project>{97AB1604-3940-4224-BFAA-2251EB1DE9E9}</Project>
+      <Name>Aigang.Platform.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aigang.Platform.Domain\Aigang.Platform.Domain.csproj">
+      <Project>{97AB1604-3940-4224-BFAA-2251EB1DE9E9}</Project>
+      <Name>Aigang.Platform.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aigang.Platform.Utils\Aigang.Platform.Utils.csproj">
+      <Project>{E6A0E0BA-5504-4541-8731-6C04328F04E7}</Project>
+      <Name>Aigang.Platform.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+</Project>
